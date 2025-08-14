@@ -4,11 +4,10 @@ let nombre
 nombre = prompt("ingresa tu nombre");
 
 let edad
-edad = prompt("ingresa tu edad");
+edad = parseInt(prompt("ingresa tu edad"));
 
 let dinero 
-dinero = prompt("ingresa tu cantidad de dinero, para realizar el calculo al final de tu cuenta debes ingresar un minimo de 100");
-
+dinero = parseInt(prompt("ingresa tu cantidad de dinero, para realizar el calculo al final de tu cuenta debes ingresar un minimo de 100"));
 
 if (edad >= 12 && dinero >= 100) {
     alert ("podemos dejarte ingresar al super");
@@ -26,11 +25,10 @@ const IVA = 0.21;
 
 let totalDeArticulos = `articulos: \n`;
 let precioTotalSinIVA = 0;
-let precioTotalConIVA = ( IVA * precioTotalSinIVA);
 let agregar = confirm ("agrega los productos a añadir a tu lista");
 
 while (agregar) {
-    let nombreDelProducto = prompt("ingresa el nombre del producto");
+    let nombreDelProducto = parseInt(prompt("ingresa el nombre del producto"));
     let precioDelProducto;
 
 do {
@@ -47,9 +45,11 @@ do {
 agregar = confirm("¿quieres agregar otro arculo?");
 }
 
+let precioTotalConIVA = precioTotalSinIVA * (1 + IVA);
+
 alert (`${totalDeArticulos}\n 
     - precio total con iva = ${precioTotalConIVA}\n
     - precio total sin iva = ${precioTotalSinIVA}\n
     - tu dinero ${dinero}\n`);
 
-    document.write (`esta seria tu lista para imprimir ${totalDeArticulos}\n`);
+    document.write (`esta seria tu lista para imprimir ${totalDeArticulos}`);
