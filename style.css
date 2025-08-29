@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0px;
+}
+
+body h1 {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header section{
+    background-color: black;
+    color: white;
+    text-align: center;
+} 
+
+body p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.productos form div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.productos form div label {
+    height: 50px;
+}
+.productos form div input{
+    border: solid 2px, black;
+    height: 20px;
+    width: 250px;
+}
+
+.productos form div label {
+    text-align: center;
+    font-size: 15px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer section {
+    text-align: center;
+    color: brown;
+    background-color: black;
+
+}
