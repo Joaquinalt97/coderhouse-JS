@@ -1,58 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <title>Document</title>
 </head>
-
 <body>
-    <h1>segunda pre entrega de coderhouse</h1>
-    <p>simulador de gestor de productos para la pre entrega 2.
-        intentare ser tu simulador con el cual agregaras productos a un carrito</p>
     <header>
-        <section>
-            <h2>PRODUCTOS</h2>
-            <p>ingrese aqui sus productos</p>
-        </section>
+        <a href="#" class="logo">
+            <img src="./image/png-transparent-technology-computer-icons-technology-electronics-text-logo.png" alt="" title="Tienda">
+        </a>
     </header>
-    <main>
-        <section class="productos">
-            <form id="productForm">
-                <div>
-                    <label> <strong>NOMBRE DEL PRODUCTO:</strong></label>
-                    <input type="text" id="productName" required>
-                </div>
-                <div>
-                    <label><strong>PRECIO:</strong></label>
-                    <input type="number" id="productPrice" required>
-                </div>
-                <div>
-                    <label><strong>DESCRIPCION:</strong></label>
-                    <input type="text" id="productDescription">
-                </div>
-                <div class="boton_agregar"> 
-                    <button type="submit">agregar producto</button>
-                </div>
-            </form>
-        </section>
 
-        <section class="contenedor">
-            <div id="productsContainer">
-                <h2>contenedor de productos</h2>
-            </div>
+    <main>
+        <section class="cards">
+
         </section>
     </main>
 
-    <footer>
-        <section>
-            <h2>pie de pagina</h2>
-        </section>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="./app.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./productos.json"></script>
 </body>
-
 </html>

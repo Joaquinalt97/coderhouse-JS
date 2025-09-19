@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "AMD Ryzen 5 5600X",
+        "precio": 250,
+        "categoria": "Procesador",
+        "imagen": "./image/100-100000927BOX_800.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "AMD Ryzen 3 3200G",
+        "precio": 120,
+        "categoria": "Procesador",
+        "imagen": "./image/1585940629_amd_ryzen_3_3200g_am4.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Intel Core i7",
+        "precio": 300,
+        "categoria": "Procesador",
+        "imagen": "./image/descarga.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Intel Core i3 10105",
+        "precio": 100,
+        "categoria": "Procesador",
+        "imagen": "./image/Intel Procesador CORE I3 10105 S1200 1.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Intel Core i5 14400",
+        "precio": 200,
+        "categoria": "Procesador",
+        "imagen": "./image/Intel Procesador CORE I5 14400 1.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "AMD Ryzen 7",
+        "precio": 350,
+        "categoria": "Procesador",
+        "imagen": "./image/procesador-cpu-ryzen_40369_1.jpeg"
+    }
+]
